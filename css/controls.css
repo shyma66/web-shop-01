@@ -1,0 +1,15 @@
+.button {
+    display: inline-block;
+    width: 130px;
+    height: 45px;
+    line-height: 45px;
+    vertical-align: baseline;
+    text-align: center;
+    font-family: var(--button-font);
+    font-size: var(--button-font-size);
+    font-weight: 600;
+    color: var(--button-text-color);
+    border-radius: 25px;
+    text-decoration: none;
+}
+

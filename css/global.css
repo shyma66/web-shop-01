@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    width: 100%;
+}
+:root {
+    scroll-behavior: smooth;
+
+    --button-text-color: #ffffff;
+    --text-color: #ffffff;
+    --description-color: #e1dde8;
+    --background-color: #493b5f;
+    --button-yellow: #ffc452;
+    --button-yellow-hover: #eab754;
+    --button-purple: #32264b;
+    --button-pink-hover: #a55376;
+
+    --tagline-size: 21px;
+    --title-size: 48px;
+    --title-header-hero-size: 70px;
+    --description--size: 20px;
+    --button-font-size: 16.5px;
+
+
+
+    --button-font: 'Source Sans 3', sans-serif;
+}
+
+.tagline{
+    font-family: 'Leckerli One', cursive;
+    font-size: var(--tagline-size);
+    color: var(--text-color);
+}
+.title{
+    font-size: var(--title-size);
+    font-family: "Dangrek", cursive;
+    color: var(--text-color);
+    font-weight: 400;
+}
+.description{
+    font-family: 'Source Sans 3', sans-serif;
+    color: var(--description-color);
+    font-size: var(--description-size);
+}

@@ -1,0 +1,32 @@
+.header__hero{
+    background-image: url(../img/welcome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0px 220px;
+    background-position: 40.5% 70.2%;
+}
+.header__container{
+    padding: 15px;
+    margin-left: 10%;
+}
+.header__title{
+    font-size: var(--title-header-hero-size);
+}
+
+.header__hero-button-about{
+    background-color: var(--button-yellow);
+}
+.header__hero-button-about:hover{
+    background-color: var(--button-yellow-hover);
+}
+.header__hero-button-menu{
+    background-color: var(--button-purple);
+    margin-left: 15px;
+}
+.header__hero-button-menu:hover{
+    background-color: var(--button-pink-hover);
+}
+.header__buttons-container{
+    margin:30px 0px;
+}
+
