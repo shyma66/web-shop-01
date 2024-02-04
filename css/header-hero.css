@@ -1,9 +1,13 @@
+.header__background{
+        background-position: 40.5% 70.2%;
+        background-image: url(../img/welcome.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
 .header__hero{
-    background-image: url(../img/welcome.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+
     padding: 250px 0px 220px;
-    background-position: 40.5% 70.2%;
+
 }
 .header__container{
     padding: 15px;
