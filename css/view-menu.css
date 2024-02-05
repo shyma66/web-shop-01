@@ -2,11 +2,12 @@
     padding-top: 65px;
     padding-bottom: 60px;
     background-color: var(--background-color);
+
 }
 .view-menu__items{
     display : flex;
     padding: 0px 40px;
-
+    justify-content: center;
 
 }
 .view-menu__deserts{
@@ -15,7 +16,7 @@
     background-position-x :58.23%;
     background-position-y: 61.54%;
     height: 460px;
-    width: 300px;
+    width: 340px;
     border-radius: 10px;
 
 }
@@ -26,7 +27,7 @@
     background-position-x :58.23%;
     background-position-y: 61.54%;
     height: 460px;
-    width: 300px;
+    width: 340px;
     border-radius: 10px;
 }
 .view-menu__ice-cream{
@@ -35,7 +36,7 @@
     background-position-x :58.23%;
     background-position-y: 61.54%;
     height: 460px;
-    width: 300px;
+    width: 340px;
     border-radius: 10px;
 }
 .view-menu__title{
@@ -48,8 +49,6 @@
 }
 .view-menu__button-side{
     background-color: var(--button-purple);
-
-
 }
 .view-menu__button-side:hover{
     background-color: var(--button-pink-hover);
@@ -59,4 +58,8 @@
 }
 .view-menu__button-mid:hover{
     background-color: var(--button-purple);
+}
+.view-menu__button-container{
+    text-align: center;
+    margin-top: 35px;
 }
