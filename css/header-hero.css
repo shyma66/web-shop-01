@@ -1,8 +1,5 @@
 .header__background{
-        background-position: 40.5% 70.2%;
-        background-image: url(../img/welcome.png);
-        background-repeat: no-repeat;
-        background-size: cover;
+
 }
 .header__hero{
 
@@ -11,7 +8,7 @@
 }
 .header__container{
     padding: 15px;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 .header__title{
     font-size: var(--title-header-hero-size);

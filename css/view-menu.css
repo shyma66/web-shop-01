@@ -1,0 +1,62 @@
+.view-menu{
+    padding-top: 65px;
+    padding-bottom: 60px;
+    background-color: var(--background-color);
+}
+.view-menu__items{
+    display : flex;
+    padding: 0px 40px;
+
+
+}
+.view-menu__deserts{
+    background-image: url(../img/view-menu-01.png);
+    padding: 0px 15px;
+    background-position-x :58.23%;
+    background-position-y: 61.54%;
+    height: 460px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+.view-menu__milk-shakes{
+    background-image: url(../img/view-menu-02.png);
+    padding: 0px 15px;
+    margin: 0px 25px;
+    background-position-x :58.23%;
+    background-position-y: 61.54%;
+    height: 460px;
+    width: 300px;
+    border-radius: 10px;
+}
+.view-menu__ice-cream{
+    background-image: url(../img/view-menu-03.png);
+    padding: 0px 15px;
+    background-position-x :58.23%;
+    background-position-y: 61.54%;
+    height: 460px;
+    width: 300px;
+    border-radius: 10px;
+}
+.view-menu__title{
+    color: var(--text-color);
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    font-size: var(--view-menu-title-size);
+
+}
+.view-menu__button-side{
+    background-color: var(--button-purple);
+
+
+}
+.view-menu__button-side:hover{
+    background-color: var(--button-pink-hover);
+}
+.view-menu__button-mid{
+    background-color: var(--button-pink-hover);
+}
+.view-menu__button-mid:hover{
+    background-color: var(--button-purple);
+}

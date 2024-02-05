@@ -1,8 +1,8 @@
 .header__navbar{
-    background-color: var(--background-color);
-    background-position: left center;
-
-
+    background-image: url(../img/welcome.png);
+    background-size: cover;
+    display: fixed;
+    background-position: 75% 0;
 
 }
 .header-content{
