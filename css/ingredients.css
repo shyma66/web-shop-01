@@ -1,0 +1,14 @@
+.ingredients{
+    padding: 40px 0px;
+    background-color: var(--background-color);
+}
+.ingredients__img{
+    background: url(../img/ingredients.png);
+    display :block;
+}
+.ingredients__text{
+    padding: 0px 15px;
+}
+.ingredients__item{
+    font-size:
+}
